@@ -1,0 +1,34 @@
+
+body{
+    background-image: url("https://www.senat.fr/fileadmin/_processed_/f/6/csm_petit_hemicycle_bas_c01c9e3a79.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:down center; 
+    color: white;
+}
+.centre{
+    text-align: center;
+}
+.bloc-image {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto; 
+    display: block;
+    width: 100%;
+}
+
+.bloc-image img {
+    width: 100%;
+    display: block;
+}
+
+.texte-haut {
+    position: absolute;
+    top: 20px; /* distance depuis le haut */
+    left: 30px; /* distance depuis la gauche */
+    z-index: 2;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0 0 8px black;
+}
